@@ -7,6 +7,8 @@
 		<meta content="width=device-width, initial-scale=1, minimum-scale=1" name="viewport">
 		<meta name="keywords" content="formulario">
 		<title>Formulario</title>
+		<link href="movil_clase5.css" rel="stylesheet" media="all and (min-width:0px) and (max-width: 480px)" />
+		<link href="tablet_clase5.css" rel="stylesheet" media="all and (min-width: 481px) and (max-width: 800px)" />
 		<link href="escritorio_clase4.css" rel="stylesheet" media="all and (min-width: 801px)" />
     	</head>
 	<body>

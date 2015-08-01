@@ -165,6 +165,12 @@ text-decoration: none;
 color: black;
 }
 
+.rangoedad
+{
+margin: 0% 1%;
+float: left;
+}
+
 audio
 {
 max-width: 100%;
