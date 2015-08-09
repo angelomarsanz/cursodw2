@@ -7,7 +7,9 @@
 		<meta content="width=device-width, initial-scale=1, minimum-scale=1" name="viewport">
 		<meta name="keywords" content="formulario">
 		<title>Formulario</title>
-		<link href="escritorio_clase4.css" rel="stylesheet" media="all and (min-width: 801px)" />
+		<link href="movil.css" rel="stylesheet" media="all and (min-width:0px) and (max-width: 480px)" />
+		<link href="tablet.css" rel="stylesheet" media="all and (min-width: 481px) and (max-width: 800px)" />
+		<link href="escritorio.css" rel="stylesheet" media="all and (min-width: 801px)" />
     	</head>
 	<body>
     		<div id="agrupar">
@@ -26,7 +28,7 @@
 			</header>
 			<nav id="menu">
 				<ul>
-					<li><a class="opcionmenu" href='index_clase4.html'>Inicio</a></li>
+					<li><a class="opcionmenu" href='index.html'>Inicio</a></li>
 					<li><a class="opcionmenu" href='acercade.html'>Acerca de</a></li>
 					<li><a class="opcionmenu" href='contacto.html'>contacto</a></li>
 				</ul>
@@ -51,8 +53,8 @@
 				<p class="etiqueta">Comentarios</p>
 				<p class="campo"><textarea name="micomentario" id="micomentario" cols="15" rows="4" required></textarea></p>
 
-				<p class="campo"><input type="submit" value="enviar"></p>
-				
+				<input type="image" src="boton.gif" width="88" height="33" id="miboton">				
+
 				</form>
 			</section>
 		</div>  	
