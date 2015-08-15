@@ -53,7 +53,7 @@
 				<p class="etiqueta">Comentarios</p>
 				<p class="campo"><textarea name="micomentario" id="micomentario" cols="15" rows="4" required></textarea></p>
 
-				<input type="image" src="imagenes/boton.gif" width="88" height="33" id="miboton">				
+				<input type="image" src="boton.gif" width="88" height="33" id="miboton">				
 
 				</form>
 			</section>
